@@ -138,32 +138,14 @@ img {
 }    
 
 @media screen and (max-width:480px){
-    .container {
-        flex-wrap: wrap;
-        justify-content: center;
-        }
 
         .row{
-            display: block;
+        display: block;
         }
-
-        .lessons .col{
-            width: 100%;
+        .row .col{
+        width: 100%;
         }
-
-        .steps .col{
-            width: 100%;
-        }
-
-        .why-us .col-left{
-            width: 100%;
-        }
-
-        .why-us .col-right{
-            width: 100%;
-        }
-
         .text{
-            margin-bottom: 30px;
+        margin-bottom: 30px;
         }
 }    
